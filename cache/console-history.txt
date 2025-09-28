@@ -1,0 +1,4 @@
+clear
+const [owner, alice, bob, charlie] = await ethers.getSigners();
+console.log("Contract loaded!");
+```> console.log("Contract loaded!");const contract = await ethers.getContractAt("MetricChallengeDAO", "0x5FbDB2315678afecb367f032d93F642f64180aa3");```javascriptjavascript032d93F642f64180aa3");```javascript
