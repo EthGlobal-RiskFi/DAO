@@ -1,0 +1,39 @@
+{
+  "name": "metric-challenge-dao-ethereum",
+  "version": "1.0.0",
+  "description": "MetricChallengeDAO - Ethereum version with MetaMask support",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js --network sepolia",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "verify": "hardhat verify --network sepolia",
+    "node": "hardhat node",
+    "test": "hardhat test"
+  },
+  "keywords": [
+    "ethereum",
+    "solidity",
+    "hardhat",
+    "metamask",
+    "dao",
+    "prediction-market"
+  ],
+  "author": "MetricChallengeDAO Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.0",
+    "hardhat": "^2.22.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "@pythnetwork/pyth-sdk-solidity": "^4.2.0",
+    "@pythnetwork/pyth-evm-js": "^1.5.0",
+    "@pythnetwork/hermes-client": "^1.0.0",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.8.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
