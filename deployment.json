@@ -1,0 +1,28 @@
+{
+  "network": "sepolia",
+  "contractAddress": "0x7337c69C1D3cF3C2846779A52eDA26Dfa1707d09",
+  "fixedStakeAmount": "0.01",
+  "deployerAddress": "0x5a867A59DDDBc28419b8b7B8aeEC6E65941F321B",
+  "deploymentTime": "2025-09-27T21:28:04.602Z",
+  "blockNumber": 9293778,
+  "shortContract": {
+    "address": "0x5802Ed6f2F4b71cEBc48C5e9Bf8bcbA11A1A1B16",
+    "deployer": "0x5a867A59DDDBc28419b8b7B8aeEC6E65941F321B",
+    "deploymentTime": "2025-09-27T23:35:49.353Z",
+    "pythContract": "0xDd24f84D36bF92C65F92307595C6B99D36b6f8c4",
+    "ethUsdPriceFeed": "0xff61491a931112ddf1bd8147cd1b641375f79f5825126d665480874634fd0ace"
+  },
+  "metricChallengeDAO": {
+    "address": "0xFb47c18B73585458F547adA528A88E5A9BB6B637",
+    "deployer": "0x5a867A59DDDBc28419b8b7B8aeEC6E65941F321B",
+    "deploymentTime": "2025-09-28T00:14:39.160Z",
+    "fixedStakeAmount": "0.01",
+    "pythContract": "0xDd24f84D36bF92C65F92307595C6B99D36b6f8c4",
+    "supportedCoins": {
+      "ETH": {
+        "address": "0x0000000000000000000000000000000000000000",
+        "priceFeedId": "0xff61491a931112ddf1bd8147cd1b641375f79f5825126d665480874634fd0ace"
+      }
+    }
+  }
+}
