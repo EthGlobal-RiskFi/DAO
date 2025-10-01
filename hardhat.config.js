@@ -23,7 +23,7 @@ module.exports = {
     },
     sepolia: {
       url: "https://eth-sepolia.g.alchemy.com/v2/GYsXrob6ZuEcolcO0ArwO",
-      accounts: ["5b506d2170dbf7fa4b35a560bc2cc9f9e360a555ee4992dd934a5209e660286c"]
+      accounts: ["temp"]
     }
   },
   etherscan: {
